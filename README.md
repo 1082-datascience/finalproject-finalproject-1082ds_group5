@@ -28,6 +28,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ### data
 
 * Data we use is the dataset is the dataset on the kaggle website called "Pokemon- Weedle's Cave"
+
   URL : https://www.kaggle.com/terminus7/pokemon-challenge
 ![kagglesceenshot](dataset.JPG)
 
