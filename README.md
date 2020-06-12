@@ -39,7 +39,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   
   Variable |  Definition | Key
   ---------|-------------|----------
-  Number   |Code name of Pokemon|
+  Number   |Code name of Pokemon| 1 to 800
   Name     |Name of Pokemon|
   Type 1   |1st attack type|
   Type 2   |2nd attack type|
@@ -49,7 +49,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   Sp.Atk   |Special attack force|
   SP.Def   |Special defense points|
   Speed    |Speed of pokemon|
-  Generation|Development stage|
+  Generation|Development stage| 1 to 6
   Legendary|Legendary status|1=legendary, 0=ordinary
   
   Note : The Pokemon in the first columns attacks first.
