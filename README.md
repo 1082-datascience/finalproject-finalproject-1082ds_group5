@@ -13,7 +13,11 @@ You should provide an example commend to reproduce your result
 ```R
 Rscript code/your_script.R --input data/training --output results/performance.tsv
 ```
-* any on-line visualization
+### Shiny.io
+
+* We put our EDA result into shiny app
+
+  ShinyApps link: [ https://ziweihuang.shinyapps.io/FinalProject/]
 
 ![shinyscreenshot](shiny.JPG)
 
