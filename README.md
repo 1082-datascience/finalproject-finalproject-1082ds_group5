@@ -1,13 +1,13 @@
 # Title of your final project
 
 ### Groups
-* name, student ID1
-* name, student ID2
-* name, student ID3
+* 林冠宇, 108352028
+* 黃子瑋, student ID2
+* 蔡政融, student ID3
 * ...
 
 ### Goal
-A breif introduction about your project, i.e., what is your goal?
+Our goal is to predict the result of the Pokémon battle !
 
 ### Demo 
 You should provide an example commend to reproduce your result
@@ -15,6 +15,8 @@ You should provide an example commend to reproduce your result
 Rscript code/your_script.R --input data/training --output results/performance.tsv
 ```
 * any on-line visualization
+
+![shinyscreenshot](shiny.JPG)
 
 ## Folder organization and its related information
 
