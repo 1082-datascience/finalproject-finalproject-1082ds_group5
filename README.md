@@ -29,10 +29,30 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 * Data we use is the dataset is the dataset on the kaggle website called "Pokemon- Weedle's Cave"
 
-  URL : https://www.kaggle.com/terminus7/pokemon-challenge
+  [Pokemon Battle](https://www.kaggle.com/terminus7/pokemon-challenge)
 ![kagglesceenshot](dataset.JPG)
 
 * Input format
+
+  The dataset contains eleven variables:
+  
+  Variable |  Definition | Key
+  ---------|-------------|----------
+  Name     |Name of Pokemon|
+  Type 1   |1st attack type|
+  Type 2   |2nd attack type|
+  HP       |Hitpoints|
+  Attack   |Attack force|
+  Defense  |Defense points|
+  Sp.Atk   |Special attack force|
+  SP.Def   |Special defense points|
+  Speed    |Speed of pokemon|
+  Generation|Development stage|
+  Legendary|Legendary status|1=legendary, 0=ordinary
+  
+  Note : The Pokemon in the first columns attacks first.
+  
+![datasetsceenshot](dataformat.JPG)
 * Any preprocessing?
   * Handle missing data
   * Scale value
