@@ -30,6 +30,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 * Data we use is the dataset is the dataset on the kaggle website called "Pokemon- Weedle's Cave"
 
   [Pokemon Battle](https://www.kaggle.com/terminus7/pokemon-challenge)
+  
 ![kagglesceenshot](dataset.JPG)
 
 * Input format
@@ -53,6 +54,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   Note : The Pokemon in the first columns attacks first.
   
 ![datasetsceenshot](dataformat.JPG)
+
 * Any preprocessing?
   * Handle missing data
   * Scale value
