@@ -35,10 +35,11 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 * Input format
 
-  The dataset contains eleven variables:
+  The dataset contains twelve variables:
   
   Variable |  Definition | Key
   ---------|-------------|----------
+  Number   |Code name of Pokemon|
   Name     |Name of Pokemon|
   Type 1   |1st attack type|
   Type 2   |2nd attack type|
@@ -55,6 +56,10 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   
 ![datasetsceenshot](dataformat.JPG)
 
+  And the data below is the result of the battle, we will divide the data into train and test to train the model
+  
+  ![combatsceenshot](combat.JPG)
+  
 * Any preprocessing?
   * Handle missing data
   * Scale value
