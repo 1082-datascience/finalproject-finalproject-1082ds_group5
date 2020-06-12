@@ -2,7 +2,7 @@
 
 ### Groups
 * 林冠宇, 108352028
-* 黃子瑋, student ID2
+* 黃子瑋, 108352024
 * 蔡政融, student ID3
 
 ### Goal
@@ -52,7 +52,6 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   Generation|Development stage| 1 to 6
   Legendary|Legendary status|1=legendary, 0=ordinary
   
-  Note : The Pokemon in the first columns attacks first.
   
 ![datasetsceenshot](dataformat.JPG)
 
@@ -60,6 +59,8 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
   
   ![combatsceenshot](combat.JPG)
   
+  Note : The Pokemon in the first columns attacks first.
+
 * Any preprocessing?
   * Handle missing data
   * Scale value
