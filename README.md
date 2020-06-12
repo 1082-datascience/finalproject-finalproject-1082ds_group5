@@ -4,7 +4,6 @@
 * 林冠宇, 108352028
 * 黃子瑋, student ID2
 * 蔡政融, student ID3
-* ...
 
 ### Goal
 Our goal is to predict the result of the Pokémon battle !
@@ -28,7 +27,10 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 
 ### data
 
-* Source
+* Data we use is the dataset is the dataset on the kaggle website called "Pokemon- Weedle's Cave"
+* URL : https://www.kaggle.com/terminus7/pokemon-challenge
+![kagglesceenshot](dataset.JPG)
+
 * Input format
 * Any preprocessing?
   * Handle missing data
