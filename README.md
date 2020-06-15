@@ -27,7 +27,7 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
 ## Folder organization and its related information
 
 ### docs
-* Our presentation, 1072_datascience_FP_group5.pdf
+* Our presentation, 1082_datascience_FP_group5.pdf
 
 
 ### data
@@ -87,6 +87,7 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
   * Our improvement is significant. We can see the model performance result on shiny and the accuracy of randomforest/xgboost model is greater than the accuracy of logistic model.
   
 * What is the challenge part of your project?
+  * It is quite challenging to complete a project from start to finish. From discussion, assignment, solving possible problems, and finally reporting on the stage, everyone needs to work together, except for the unfamiliar with this type of report, We need to absorb and understand class content and put it into practice at the same time. This process is very challenging.
 
 ## Reference
 * Data Source
