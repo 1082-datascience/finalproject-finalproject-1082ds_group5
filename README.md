@@ -12,6 +12,8 @@ Our goal is to predict the result of the Pokémon battle !
 You should provide an example commend to reproduce your result
 ```R
 Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data/combats.csv --report results/logistic.csv  --methods logistic
+Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data/combats.csv --report results/logistic.csv  --methods randomforest
+Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data/combats.csv --report results/logistic.csv  --methods xgboost
 
 ```
 ### Shiny.io
@@ -25,10 +27,8 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
 ## Folder organization and its related information
 
 ### docs
-* Your presentation, 1072_datascience_FP_<yourID|groupName>.ppt/pptx/pdf, by **Jun. 25**
-* Any related document for the final project
-  * papers
-  * software user guide
+* Our presentation, 1072_datascience_FP_group5.pdf
+
 
 ### data
 
@@ -66,7 +66,6 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
 
 * Any preprocessing?
   * Handle missing data : In our data set, three Pokemon's name are missing and we use the number and other information(e.g attack, defence ...) to find out the correct Pokemon's name on the official website. Besides, there is a Pokemon that is divided into male and female and has a gender symbol next to the name label, which causes an error when reading the data set. We also fixed this problem manually.
-  * Scale value
 
 ### code
 
@@ -90,7 +89,6 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
 * What is the challenge part of your project?
 
 ## Reference
-* Code/implementation which you include/reference (__You should indicate in your presentation if you use code for others. Otherwise, cheating will result in 0 score for final project.__)
 * Data Source
   * Pokemon- Weedle's Cave [https://www.kaggle.com/terminus7/pokemon-challenge]
 
@@ -106,6 +104,5 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
 * Packages you use
   * The packages we use for "shiny.io": shiny、tidyverse、fmsb、corrplot、ggpubr、WVPlots、ggExtra、gridExtra
   * The packages we use for "training": ggplot2、rpart、randomForest、xgboost、dplyr、plyr、party、argparser、pROC、DiagrammeR、gridExtra、lattice、caret、e1071
-* Related publications
 
 
