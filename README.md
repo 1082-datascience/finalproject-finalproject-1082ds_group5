@@ -3,7 +3,7 @@
 ### Groups
 * 林冠宇, 108352028
 * 黃子瑋, 108352024
-* 蔡政融, student ID3
+* 蔡政融, 108356023
 
 ### Goal
 Our goal is to predict the result of the Pokémon battle !
@@ -32,13 +32,13 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
 
 ### data
 
-* Data we use is the dataset on the kaggle website called "Pokemon- Weedle's Cave"
+* Data we use is the data set on the kaggle website called "Pokemon- Weedle's Cave"
 
   [Pokemon Battle](https://www.kaggle.com/terminus7/pokemon-challenge)
   
 ![kagglesceenshot](dataset.JPG)
 
-* The dataset contains twelve variables:
+* The data set contains twelve variables:
   
   Variable |  Definition | Key
   ---------|-------------|----------
@@ -65,7 +65,7 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
   * Note : The Pokemon in the first columns attacks first.
 
 * Any preprocessing?
-  * Handle missing data.In our dataset, three pokemon's name are missing and we use the number and other information(e.g attack, defence ...) to find out the correct pokemon's name on official website. Besides, there is a Pokemon that is divided into male and female and has a gender symbol next to the name, which causes an error when reading the dataset. We also fixed this problem manually
+  * In our data set, three Pokemon's name are missing and we use the number and other information(e.g attack, defence ...) to find out the correct Pokemon's name on the official website. Besides, there is a Pokemon that is divided into male and female and has a gender symbol next to the name label, which causes an error when reading the data set. We also fixed this problem manually.
   * Scale value
 
 ### code
