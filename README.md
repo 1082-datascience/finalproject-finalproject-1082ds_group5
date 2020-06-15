@@ -65,7 +65,7 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
   * Note : The Pokemon in the first columns attacks first.
 
 * Any preprocessing?
-  * In our data set, three Pokemon's name are missing and we use the number and other information(e.g attack, defence ...) to find out the correct Pokemon's name on the official website. Besides, there is a Pokemon that is divided into male and female and has a gender symbol next to the name label, which causes an error when reading the data set. We also fixed this problem manually.
+  * Handle missing data : In our data set, three Pokemon's name are missing and we use the number and other information(e.g attack, defence ...) to find out the correct Pokemon's name on the official website. Besides, there is a Pokemon that is divided into male and female and has a gender symbol next to the name label, which causes an error when reading the data set. We also fixed this problem manually.
   * Scale value
 
 ### code
