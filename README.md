@@ -38,9 +38,7 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
   
 ![kagglesceenshot](dataset.JPG)
 
-* Input format
-
-  * The dataset contains twelve variables:
+* The dataset contains twelve variables:
   
   Variable |  Definition | Key
   ---------|-------------|----------
@@ -79,7 +77,7 @@ Rscript code/modelselection.R --fold 5  --pokemon data/pokemon.csv --combat data
   * We use logistic model as our null model.
   
 * How do your perform evaluation? ie. Cross-validation, or extra separated data
-  * We use cross-validation and extra separated data to perform evaluation
+  * We use cross-validation and extra separated data to perform evaluation.
   
 ### results
 
